@@ -1,0 +1,147 @@
+.login {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow-y: auto;
+	font-family: "Comfortaa", cursive;
+}
+
+.register{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	justify-content: center;
+	font-family: "Comfortaa", cursive;
+}
+
+.form {
+	z-index: 1;
+	border-radius: 10px;
+	width: 600px;
+	text-align: center;
+}
+
+.sign-up-form{
+	margin-bottom: 20px;
+}
+
+.form-control {
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 17px;
+	font-family: "Comfortaa", cursive;
+}
+.name-div{
+	width: 49%;
+	margin-right: 10px;
+}
+
+.surname-div{
+	width: 49%;
+}
+
+
+.password {
+	outline: 0;
+	background: #f2f2f2;
+	width: 200px;
+	border: 0;
+	border-radius: 5px;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 17px;
+	font-family: "Comfortaa", cursive;
+}
+
+.form-control:focus {
+	background: #dbdbdb;
+}
+
+.btnLogin {
+	font-family: "Comfortaa", cursive;
+	text-transform: uppercase;
+	outline: 0;
+	background-color: #95bb76;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 900;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.btnLogin:active {
+	background-color: aliceblue;
+}
+
+.auth-title {
+	color: black;
+	font-weight: 700;
+	font-size: 70px;
+	margin-bottom: 25px;
+	display: block;
+}
+
+.form p.error {
+	margin: 0 0 10px 10px;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 600;
+	color: #FF4773;
+}
+
+.question {
+	padding: 0px 10px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.login-form-button {
+	text-transform: uppercase;
+	outline: 0;
+	background: #ffffff;
+	width: 100px;
+	border: 0;
+	border-radius: 5px;
+	color: #021037;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.login-form-button:hover {
+	background-color: black;
+	color: #f2f2f2;
+}
+
+.ant-input {
+	background: #f2f2f2;
+	font-size: 17px;
+}
+
+.question-div {
+	display: flex;
+	padding-top: 30px;
+	justify-content: flex-start;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  background: #f2f2f2;
+  border: none;
+	font-size: 17px;
+}

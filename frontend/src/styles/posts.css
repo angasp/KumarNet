@@ -1,0 +1,175 @@
+.post-card {
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 30px;
+	background-color: white;
+}
+
+.post {
+	width: 700px;
+	border-radius: 30px;
+}
+
+.posts-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.post-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 20px;
+}
+
+.delete-icon {
+	position: absolute;
+	right: 20px;
+}
+
+.ant-card-body {
+	position: relative;
+}
+
+.header-post-form h3 {
+	font-size: 30px;
+	color: #252525;
+}
+
+.textArea-ant {
+	border-radius: 20px;
+	background-color: whitesmoke;
+}
+
+.submit-btn {
+	background-color: transparent;
+	border: 0px;
+	color: #252525;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.submit-btn:hover {
+	color: cadetblue;
+}
+
+.upload-btn {
+	width: 300px;
+	cursor: pointer;
+}
+
+.btn-posts {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	vertical-align: center;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+.avatar-textarea {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.img-post {
+	display: flex;
+	justify-content: center;
+}
+
+.meta-post-card {
+	padding-bottom: 20px;
+}
+
+.textArea-post {
+	border-radius: 30px;
+	width: 600px;
+}
+
+.like-action {
+	display: flex;
+	align-items: center;
+	height: 20px;
+}
+
+.like-icon svg {
+	width: 20px;
+	height: 20px;
+}
+
+.like-btn {
+	border: none;
+	background: white;
+	box-shadow: none;
+	color: #95bb76;
+	font-weight: bolder;
+}
+
+.like-btn:hover{
+	color: bisque;
+}
+
+.like-btn:focus{
+	color: bisque;
+}
+
+.ant-btn-primary{
+	border-color: #95bb76;
+	background-color: #95bb76;
+}
+
+
+
+.comment-icon svg {
+	border: none;
+	box-shadow: none;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+}
+
+.ant-collapse > .ant-collapse-item {
+	border: none;
+	box-shadow: none;
+}
+
+.ant-collapse > .ant-collapse-item {
+	border: none;
+	box-shadow: none;
+	background-color: white;
+}
+
+.ant-collapse {
+	border: none;
+}
+
+.post-actions {
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-bottom: 20px;
+
+}
+
+.ant-collapse-content {
+	border: none;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+	position: relative;
+	left: -350px;
+	background: white;
+	width: 200%;
+	padding-bottom: 20px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+	padding: 0px;
+}

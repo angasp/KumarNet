@@ -1,0 +1,92 @@
+.custom-shape-divider-top-1666203367 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  position: absolute;
+  top: 0%;
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1666203367 svg {
+  position: relative;
+  display: block;
+  width: calc(152% + 1.3px);
+  height: 200px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1666203367 .shape-fill {
+  fill: #95bb76;
+}
+
+
+.menu{
+  display: flex;
+
+}
+
+.navbar{
+  background-color: #BEE5B0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  margin-bottom: 60px;
+  opacity: 1;
+  z-index: 300;
+}
+
+.nav-menu{
+  width: 100%;
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  font-family: "Comfortaa", cursive;
+}
+
+.logo_text{
+  font-size: 55px;
+  color: white ;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.colored_part{
+  color: black;
+}
+
+.menu ul{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.link-nav{
+    --c: #F6F6DB; 
+    --s: .15em;
+    
+    line-height:1.1em;
+    padding-bottom: calc(2.1*var(--s));
+    background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+    transition: .5s;
+}
+.link-nav:hover{
+  --_p: 100%;
+  color: var(--c);
+}
+
+.link-nav{
+  color: white;
+  padding: 0.7rem;
+  margin: 0 0.5rem;
+}
+

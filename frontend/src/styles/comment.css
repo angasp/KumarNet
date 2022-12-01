@@ -1,0 +1,31 @@
+.comments-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.submit-btn-comment{
+  background-color: transparent;
+  border: 0px;
+  color: #021037;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.textArea-ant{
+  margin-bottom: 15px;
+  width: 600px;
+}
+
+
+.ant-comment-content-detail{
+  color: black;
+}
+
+.ant-comment-content-author{
+  font-size: 40px;
+}

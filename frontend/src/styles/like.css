@@ -1,0 +1,22 @@
+.like-user{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.modal{
+  border-radius: 30px;
+}
+
+.ant-modal-content{
+  border-radius: 30px;
+}
+
+.ant-modal-header{
+  border-radius: 30px;
+}
+
+.like-username{
+  margin-left: 12px;
+  margin-bottom: 0px;
+}

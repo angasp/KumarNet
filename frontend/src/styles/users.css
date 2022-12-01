@@ -1,0 +1,46 @@
+.users-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+}
+
+.users{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-card{
+  width: 250px;
+  margin-top: 20px; 
+  margin-left: 40px;
+  border-radius: 30px; 
+  background-color: whitesmoke;
+}
+
+.users-photo{
+  border-radius: 30px; 
+  height: 250px;
+  width:250px;
+}
+
+.ant-card-cover img{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.user-search > input.ant-input{
+  background-color: white;
+}
+
+.user-search{
+  border-radius: 20px;
+  height: 40px;
+}
+
+.ant-image-mask{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}

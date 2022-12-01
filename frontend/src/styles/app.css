@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("./navbar.css");
+@import url("./auth.css");
+@import url("./posts.css");
+@import url("./users.css");
+@import url("./profile.css");
+@import url("./like.css");
+@import url("./comment.css");
+
+
+#root {
+	height: 100%;
+	background-color: #BEE5B0;
+}
+
+.ant-layout{
+	background-color: #BEE5B0;
+
+}
